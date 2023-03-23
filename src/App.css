@@ -10,10 +10,26 @@
 }
 .grid-main{
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto ;
+  gap: 15px;
+  margin-top:40px;
 } 
+.grid-child{
+  border :1px solid whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+.grid-child:hover{
+  background-color: whitesmoke;
+  color: #212112;
+}
 .grid-child p {
   font-family: Poppins;
   font-weight: 700;
   font-size: 15px;
+}
+.grid-child h4 {
+  font-family: Poppins;
+  font-weight: 700;
 }
