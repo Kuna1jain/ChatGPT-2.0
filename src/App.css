@@ -8,3 +8,12 @@
 .heading{
   font-family: Poppins;
 }
+.grid-main{
+  display: grid;
+  grid-template-columns: auto;
+} 
+.grid-child p {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 15px;
+}

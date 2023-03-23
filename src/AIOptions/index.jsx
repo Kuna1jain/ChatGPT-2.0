@@ -1,4 +1,4 @@
-const arrayItems = [{
+export const arrayItems = [{
     name: 'Q&A',
     id: 'q&a',
     description: "Answer Question based on existing knowledge",
@@ -32,6 +32,6 @@ const arrayItems = [{
     name:"Calculate time Complexity",
     id:"calculatetime",
     description:"Find time complexity of a function."
-}
+},
 ];
 
